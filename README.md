@@ -16,7 +16,7 @@ A multi-threaded network reconnaissance tool built using Python that performs **
 - 📄 Export results in structured JSON format
 - 🔗 Supports both single-target and full network scanning
 
----
+<br>
 
 ## 🧠 How It Works
 
@@ -33,7 +33,7 @@ A multi-threaded network reconnaissance tool built using Python that performs **
    - Sends protocol-specific requests (HTTP, SMTP, etc.)
    - Extracts banners for service identification
 
----
+<br>
 
 ## 🛠️ Tech Stack
 
@@ -45,7 +45,7 @@ A multi-threaded network reconnaissance tool built using Python that performs **
 - tqdm (progress bar)
 - logging
 
----
+<br>
 
 ▶️ Usage
 
@@ -55,7 +55,7 @@ python main.py --target scanme.nmap.org --start 20 --end 1000
 🔹 Scan Local Network (requires root)
 sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
 
----
+<br>
 
 📄 Sample Output
 
@@ -68,8 +68,8 @@ sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
     "banner": "HTTP/1.1 200 OK..."
   }
 
----
-  
+<br> 
+
 📁 Output Files
 results/<target>.json → Scan results
 scanner.log → Logging information
