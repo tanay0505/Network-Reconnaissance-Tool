@@ -47,13 +47,36 @@ A multi-threaded network reconnaissance tool built using Python that performs **
 
 ---
 
-## 📦 Installation
+▶️ Usage
 
-```bash
-git clone https://github.com/yourusername/network-recon-tool.git
-cd network-recon-tool
+🔹 Scan a Single Target
+python main.py --target scanme.nmap.org --start 20 --end 1000
 
-python3 -m venv venv
-source venv/bin/activate
+🔹 Scan Local Network (requires root)
+sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
 
-pip install -r requirements.txt# Network-Reconnaissance-Tool
+---
+
+📄 Sample Output
+
+  {
+    "target": "192.168.X.X",
+    "mac": "12:34:56:78:90:11",
+    "port": 80,
+    "status": "open",
+    "service": "HTTP",
+    "banner": "HTTP/1.1 200 OK..."
+  }
+
+---
+  
+📁 Output Files
+results/<target>.json → Scan results
+scanner.log → Logging information
+
+---
+
+⚠️ Disclaimer
+
+This tool is intended for educational and authorized testing purposes only.
+Do not use it on networks or systems without proper permission.
