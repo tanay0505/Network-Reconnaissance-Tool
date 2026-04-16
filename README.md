@@ -59,6 +59,7 @@ sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
 
 ##  📄 Sample Output
 
+```
 [
   {
     "target": "192.168.1.1",
