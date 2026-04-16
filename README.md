@@ -59,14 +59,16 @@ sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
 
 ##  📄 Sample Output
 
--{
--   "target": "192.168.X.X",
--   "mac": "12:34:56:78:90:11",
--   "port": 80,
--   "status": "open",
--   "service": "HTTP",
--   "banner": "HTTP/1.1 200 OK..."
--}
+[
+  {
+    "target": "192.168.1.1",
+    "mac": "10:10:81:e4:23:42",
+    "port": 80,
+    "status": "open",
+    "service": "HTTP",
+    "banner": "HTTP/1.1 200 OK..."
+  }
+]
 
 <br> 
 
