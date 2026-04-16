@@ -2,7 +2,6 @@
 
 A multi-threaded network reconnaissance tool built using Python that performs **ARP-based device discovery** and **TCP port scanning** with **service detection** and **banner grabbing**.
 
----
 
 ## 🚀 Features
 
