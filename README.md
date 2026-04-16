@@ -49,10 +49,10 @@ A multi-threaded network reconnaissance tool built using Python that performs **
 
 ## ▶️ Usage
 
-🔹 Scan a Single Target
+🔹 Scan a Single Target  
 python main.py --target scanme.nmap.org --start 20 --end 1000
 
-🔹 Scan Local Network (requires root)
+🔹 Scan Local Network (requires root)  
 sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
 
 <br>
