@@ -47,7 +47,7 @@ A multi-threaded network reconnaissance tool built using Python that performs **
 
 <br>
 
-▶️ Usage
+## ▶️ Usage
 
 🔹 Scan a Single Target
 python main.py --target scanme.nmap.org --start 20 --end 1000
@@ -57,7 +57,7 @@ sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
 
 <br>
 
-📄 Sample Output
+##  📄 Sample Output
 
   {
     "target": "192.168.X.X",
@@ -70,13 +70,14 @@ sudo venv/bin/python main.py --network 192.168.1.0/24 --start 20 --end 1000
 
 <br> 
 
-📁 Output Files
+##  📁 Output Files
+
 results/<target>.json → Scan results
 scanner.log → Logging information
 
----
+<br>
 
-⚠️ Disclaimer
+##  ⚠️ Disclaimer
 
 This tool is intended for educational and authorized testing purposes only.
 Do not use it on networks or systems without proper permission.
